@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:maxLines="1"
+
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/textViewSubtitle"
+            android:layout_below="@id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:maxLines="1"
+
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSubtitle"
+
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSubtitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+
+            android:layout_toEndOf="@id/delete_btn"
+
+            android:text="Edit" />
+
+        <ImageView
+            android:id="@+id/imageViewRound"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/circle_shape" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sarsa/AndroidStudioProjects/PaintingAppLab3/app/src/main/res/drawable/ic_eraser.xml" value="0.1" />
+        <entry key="..\:/Users/sarsa/AndroidStudioProjects/PaintingAppLab3/app/src/main/res/layout/activity_create_new_picture.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/sarsa/AndroidStudioProjects/PaintingAppLab3/app/src/main/res/layout/activity_home.xml" value="0.18689320388349515" />
+        <entry key="..\:/Users/sarsa/AndroidStudioProjects/PaintingAppLab3/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/sarsa/AndroidStudioProjects/PaintingAppLab3/app/src/main/res/layout/dialog.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/sarsa/AndroidStudioProjects/PaintingAppLab3/app/src/main/res/layout/note_item.xml" value="0.25" />
+        <entry key="..\:/Users/sarsa/AndroidStudioProjects/PaintingAppLab3/app/src/main/res/layout/size_change_dialog_layout.xml" value="0.33064516129032256" />
+        <entry key="..\:/Users/sarsa/AndroidStudioProjects/PaintingAppLab3/app/src/main/res/layout/tools_item.xml" value="0.31367521367521367" />
+        <entry key="..\:/Users/sarsa/AndroidStudioProjects/PaintingAppLab3/app/src/main/res/menu/search_menu.xml" value="0.38229166666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
